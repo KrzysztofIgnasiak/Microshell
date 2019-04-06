@@ -210,7 +210,6 @@ char* read_line(void) {
     }
 
     //scaning
-    //user_input_loop(&userline_size,line_from_user,character_counters);
 
     while (1) {
         if (character_counters >= userline_size) {
