@@ -65,7 +65,7 @@ int change_directory(char** tokens)
     {
         if (chdir(tokens[1])==-1)
         {
-            printf("no directory with given tittle, your current working directory remain unchanged\n");
+            printf("no directory with given title, your current working directory remains unchanged\n");
 
         }
     }
@@ -73,7 +73,7 @@ int change_directory(char** tokens)
 void help_info()
 {
     printf(ANSI_COLOR_MAGENTA"my name is Krzysztof Ignasiak\n");
-    printf("this microshell is a form of assigment of Operating System Program\n");
+    printf("this microshell is a form of assignment of Operating System Program in University\n");
     printf("it shows information about user login,user uid,user hostname and current working directory\n");
     printf("it can interpret and evaluate built_in commands (help,exit,cd,touch,mkdir) or other scripts using system commands like fork,exec and wait\n");
     printf("it contains functions,which will inform user, when the error occurs\n");
